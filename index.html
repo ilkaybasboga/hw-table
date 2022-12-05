@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLE</title>
+    <style>
+        table {
+        font-size: xx-small;    
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        width: 400px;
+        border-collapse: separate;
+        text-indent: initial;
+        border-spacing: 0.5px;
+        }
+      #head {
+        background-color: rgb(64, 97, 242);
+        color: white;
+      }
+
+      .grey-1 {
+        background-color: #ccd5ea;
+      }
+
+      .grey-2 {
+        background-color: #e7ebf5;
+      }
+      .left{
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="7" id="head">Zaman Çizelgesi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="grey-1">
+          <th class="left">Günler</th>
+          <th></th>
+          <th>Ptesi</th>
+          <th>Salı</th>
+          <th>Çars</th>
+          <th>Perş</th>
+          <th>Cuma</th>
+        </tr>
+
+        <tr class="grey-2">
+          <th class="left" rowspan="5">Saatler</th>
+          <th>1</th>
+          <th>Türkçe</th>
+          <th>Mat</th>
+          <th>Türkçe</th>
+          <th>Mat</th>
+          <th>Fen</th>
+        </tr>
+
+        <tr class="grey-1">
+          <th>2</th>
+          <th>Türkçe</th>
+          <th>Mat</th>
+          <th>Türkçe</th>
+          <th>Mat</th>
+          <th>Fen</th>
+        </tr>
+
+        <tr class="grey-2">
+          <th colspan="6">DİNLENME</th>
+        </tr>
+
+        <tr class="grey-1">
+          <th>3</th>
+          <th>Sosyal</th>
+          <th>Müzik</th>
+          <th>Sosyal</th>
+          <th>Fen</th>
+          <th>Din</th>
+        </tr>
+
+        <tr class="grey-2">
+          <th>4</th>
+          <th>Sosyal</th>
+          <th>Beden</th>
+          <th>Sosyal</th>
+          <th>Fen</th>
+          <th>Din</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
